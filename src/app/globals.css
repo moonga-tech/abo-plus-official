@@ -105,3 +105,31 @@ a {
     color-scheme: dark;
   }
 }
+
+footer{
+  visibility: hidden;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color: gray;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  footer{
+    visibility: visible;
+    display: flex;
+    position: absolute;
+    bottom: -90px;
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+  }
+}
