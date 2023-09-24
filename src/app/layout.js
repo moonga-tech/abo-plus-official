@@ -1,5 +1,10 @@
+/* styles */
 import './globals.css'
+import '../../public/bootstrap-5.3.2-dist/css/bootstrap.min.css'
 import { Inter } from 'next/font/google'
+
+
+/* components */
 import Footer from './footer'
 
 const inter = Inter({ subsets: ['latin'] })
