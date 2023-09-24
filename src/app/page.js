@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Footer from './footer'
 
 export default function Home() {
   return (
@@ -88,6 +89,7 @@ export default function Home() {
           <p>
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
+          
         </a>
       </div>
     </main>
