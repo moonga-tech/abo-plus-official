@@ -23,7 +23,8 @@ body {
 .container {
   max-width: 800px;
   width: 100%;
-  background-color: #ffffffca;
+  /* background-color: #ffffffca; */
+  background: linear-gradient(to top, #161616 0%, #c10909 100%);
   padding: 25px 30px;
   margin: 0 auto;
   border-radius: 5px;
